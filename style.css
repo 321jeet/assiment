@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.header{
+  height: 70px;
+  width: 100%;
+  background-color: aquamarine;
+ 
+}
+.header img{
+  margin: 3px 10px;
+ height:60px ;
+  width:60px ;
+  border: 2px solid bisque;
+  border-radius: 50px ;
+}
+.container{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.box{
+  margin:50px auto;
+
+  display: flex;
+  justify-content: center;
+border:3px solid gray ;
+border-radius: 10px;
+  
+  height: 450px;
+  width: auto;
+  font-size: 20px;
+
+}
+.box span{
+  color: red;
+}
+.box input,textarea{
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  border: 2px solid rgb(134, 119, 119);
+  border-radius: 10px;
+
+}
+#massage{
+ 
+  height: 120px;
+
+}
+.btn {
+  text-align: center;
+  background-color:brown;
+}
+
+
+
+
+
+.slider{
+	margin:50px auto;
+  height: 450px;
+	width:auto;
+  border:3px solid gray ;
+  border-radius: 10px;
+}
+ 
+.img-box img{
+  height: 380px;
+	width:100%;
+  border-radius: 10px;
+}
+
+.ctn{
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+  font-weight: 800;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;	
+  border-radius: 10px;		 
+}
+
+.ctn:hover{
+	background: #111;
+}
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
+.showdata{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

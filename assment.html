@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/a.jpg" alt="logo" />
+    </header>
+    <section class="container">
+
+
+        <div class="slider">
+            <div class="img-box">
+                <img src="images/a.jpg" class="slider-img">
+            </div>
+
+            <button class="ctn" onclick="prev()">Prev</button>
+            <button class="ctn" onclick="next()">Next</button>
+        </div>
+
+        <div class="box">
+            <div class="row">
+
+          
+                    <div>
+
+                        Name:
+                        <input type="text" id="name" name="name"><br>
+                        <span id="username"></span><br>
+                    </div>
+                    <div>
+                        Email:
+                        <input type="email" id="email" name="email"><br>
+                        <span id="id"></span><br>
+                    </div>
+                    <div>
+                        Number:
+                        <input type="text" id="number" name="number" pattern="{0-9} {10}"><br>
+                        <span id="numb"></span><br>
+                    </div>
+                    <div>
+                        Discription:
+                        <span id="ds"></span><br>
+
+                        <textarea name="massage" id="massage" cols="20" rows="8"></textarea> <br>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit" onclick="AddRow()" class="btn">
+                    </div>
+               
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class=" showdata">
+
+        <table border="3" id="show">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Number</th>
+                    <th>Discription</th>
+                </tr>
+            </thead>
+        </table>
+
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
